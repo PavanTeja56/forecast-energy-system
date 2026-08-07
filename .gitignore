@@ -98,7 +98,7 @@ htmlcov/
 coverage.xml
 
 # Dataset
-data/
+data/household_power_consumption.txt
 
 # Keep the folder structure
 !data/.gitkeep
