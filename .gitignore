@@ -1,0 +1,104 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# PyCharm
+# ==========================
+.idea/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# TensorFlow
+# ==========================
+logs/
+checkpoints/
+
+# ==========================
+# Model Checkpoints (Optional)
+# Uncomment if you DON'T want to upload trained models
+# ==========================
+# *.keras
+# *.h5
+# *.ckpt
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+
+# ==========================
+# Mac/Linux Hidden Files
+# ==========================
+.Trashes
+.fseventsd
+
+# ==========================
+# Generated Images (Optional)
+# ==========================
+# *.png
+# *.jpg
+# *.jpeg
+
+# ==========================
+# Coverage Reports
+# ==========================
+htmlcov/
+.coverage
+coverage.xml
+
+# Dataset
+data/
+
+# Keep the folder structure
+!data/.gitkeep

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build: .
+    container_name: forecast-energy-lstm
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - .:/workspace
+
+    working_dir: /workspace
+
+    restart: unless-stopped
